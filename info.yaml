@@ -1,0 +1,10 @@
+PATHS:
+  unreal: C:/Program Files/Epic Games/UE_5.3/Engine/Binaries/Win64/UnrealEditor-Cmd.exe
+  project: C:/Users/c2059992/OneDrive - Cardiff University/Documents/Unreal Projects/MyProject5/MyProject5.uproject
+  GUI: C:/Users/c2059992/OneDrive - Cardiff University/Documents/Painting Practice/test/GUI/
+  config: null
+DATABASE:
+  host: localhost
+  user: pp
+  password: salban
+  database: testdb

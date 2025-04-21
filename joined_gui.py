@@ -110,6 +110,11 @@ def extract_options(mode):
     pass_btn = ttk.Button(e_options, text = "Extract All", command=lambda:save(mode, var1.get()), style="Custom.TButton").pack()
 
 def selected_ls(checked):
+    """
+    Runs the USD extraction file on the selected LevelSequences
+
+    :param checked: selected LevelSequence
+    """
     output = askdirectory()
     if output is None or len(output) == 0:
         return

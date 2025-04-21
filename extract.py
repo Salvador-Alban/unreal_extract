@@ -104,10 +104,7 @@ def extract(file, obj):
     for asset_data in assets:
         x = {"name": str(asset_data.asset_name), "path": str(asset_data.package_path)}
         level_sequences.append(x)
-
-    # json_object_1 = json.dumps(level_sequences, indent=4)
-    # with open(os.path.join(os.path.dirname(file), "ls_options.json"), "w") as outfile:
-    #     outfile.write(json_object_1)
+        
     outliner_data.append(level_sequences)
 
     json_object = json.dumps(outliner_data, indent=4)

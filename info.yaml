@@ -4,7 +4,7 @@ PATHS:
   GUI: # Full path to cide directory
   config: null
 DATABASE:
-  host: localhost
-  user: pp
-  password: salban
-  database: testdb
+  host: # Host address
+  user: # username
+  password: 
+  database: # Database name

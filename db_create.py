@@ -14,7 +14,7 @@ config = {
 }
 
 # Path to your schema folder
-schema_dir = 'path/to/your/schema/files'
+schema_dir = 'schema'
 
 try:
     # Connect to MySQL

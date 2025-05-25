@@ -1,0 +1,10 @@
+PATHS:
+  unreal: C:/Program Files/Epic Games/UE_5.3/Engine/Binaries/Win64/UnrealEditor-Cmd.exe # 
+  project: # Full path to Unreal project you want to extract (can be edited in GUI)
+  GUI: # Full path to cide directory
+  config: null
+DATABASE:
+  host: # Host address
+  user: # username
+  password: 
+  database: # Database name

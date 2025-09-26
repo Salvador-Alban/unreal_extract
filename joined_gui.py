@@ -161,12 +161,10 @@ def sql_upload():
     cur = mydb.cursor()
     # Delete all rows
     cur.execute("DELETE FROM camera;")
-    cur.execute("DELETE FROM transform;")
     cur.execute("DELETE FROM sequences;")
     cur.execute("DELETE FROM assets;")
 
     # Reset auto-increment
-    cur.execute("ALTER TABLE transform AUTO_INCREMENT = 1;")
     cur.execute("ALTER TABLE assets AUTO_INCREMENT = 1;")
     cur.execute("ALTER TABLE camera AUTO_INCREMENT = 1;")
     cur.execute("ALTER TABLE sequences AUTO_INCREMENT = 1;")

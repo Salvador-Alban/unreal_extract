@@ -27,6 +27,7 @@ CREATE TABLE `assets` (
   `name` varchar(255) NOT NULL,
   `class` varchar(255) NOT NULL,
   `category` varchar(45) DEFAULT NULL,
+  `mesh` varchar(45) DEFAULT NULL
   PRIMARY KEY (`id`),
   UNIQUE KEY `id_UNIQUE` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
